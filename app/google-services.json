@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "621178266043",
+    "project_id": "sportmarket-116a4",
+    "storage_bucket": "sportmarket-116a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621178266043:android:021afc23f361a69dcfe49e",
+        "android_client_info": {
+          "package_name": "com.example.sportmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621178266043-pc21upbhfml7s2r5gmc2102g88jmeaqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMsC6sUQnlgZh_0eJJ8cHJy5oCsYOQ3vc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621178266043-pc21upbhfml7s2r5gmc2102g88jmeaqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

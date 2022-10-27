@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:padding="3dp"
+        android:background="@drawable/img_item_background">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="10dp">
+
+            <ImageButton
+                android:id="@+id/imgButtonDialog"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:background="@color/white"
+                android:src="@drawable/baseline_add_black"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etTitleDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/img_item_background"
+            android:hint="Титульник"
+            android:minHeight="48dp"
+            android:padding="7dp"
+            android:paddingStart="9dp"
+            android:textColor="@color/dialog_items_color"
+            android:textColorHint="@color/dialog_hints_color"
+            android:textSize="10pt" />
+
+        <EditText
+            android:id="@+id/etDescriptionDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/img_item_background"
+            android:hint="Описание"
+            android:inputType="textCapSentences|textMultiLine"
+            android:maxLength="2000"
+            android:maxLines="4"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/dialog_items_color"
+            android:textColorHint="@color/dialog_hints_color"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btnAddDialog"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/img_item_background"
+            android:text="Добавить"
+            android:textSize="8pt" />
+
+    </LinearLayout>
+
+</LinearLayout>
